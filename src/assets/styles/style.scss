@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+  width: 1px;
+}
+*::-webkit-scrollbar-track,
+*::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+body {
+  background-color: #010409;
+  color: #c9d1d9;
+  margin: 0;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #58a6ff;
+}
+img,
+iframe {
+  max-width: 100%;
+  height: auto;
+}

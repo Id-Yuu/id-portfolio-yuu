@@ -1,0 +1,31 @@
+#section-skill {
+  position: relative;
+  h1 {
+    margin: 2px auto;
+  }
+  ul {
+    line-height: 21px;
+    li {
+      margin: 2px auto;
+    }
+  }
+}
+
+.content-skill {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 10px;
+  .left-skill {
+    flex: 50%;
+  }
+  .right-skill {
+    flex: 50%;
+  }
+  ol {
+    line-height: 22px;
+  }
+}

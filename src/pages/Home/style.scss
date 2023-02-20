@@ -1,0 +1,39 @@
+.img-section {
+  position: relative;
+  max-width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid;
+  .square {
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    transform: rotate(20deg);
+  }
+  img {
+    transform: scale(2.2);
+  }
+}
+
+.intro-section {
+  position: relative;
+  max-width: 490px;
+  top: -20px;
+  .intro-content {
+    padding: 10px;
+    sup {
+      font-size: 15px;
+      font-style: italic;
+    }
+    h1 {
+      margin: 5px auto;
+    }
+    p {
+      text-indent: 15px;
+    }
+  }
+}

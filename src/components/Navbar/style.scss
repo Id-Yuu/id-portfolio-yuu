@@ -1,0 +1,40 @@
+#nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 5px;
+  a {
+    padding: 10px;
+    color: azure;
+    &:hover {
+      color: #58a6ff;
+    }
+  }
+  .active {
+    border-bottom: 1px solid #58a6ff;
+    color: #58a6ff;
+    &:hover {
+      color: azure;
+      border-color: azure;
+    }
+  }
+}
+.menu-mobile {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  border-radius: 4px;
+  display: none;
+}

@@ -1,0 +1,26 @@
+#section-certificate {
+  max-width: 100%;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  .content-certificate {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin: 10px auto;
+    max-width: 70%;
+    max-height: 70vh;
+    overflow-y: auto;
+    .item-certificate {
+      padding: 5px;
+      border: 1px solid #444;
+      .img-certificate {
+        max-height: 220px;
+        overflow: hidden;
+      }
+      p {
+        margin: 5px auto;
+      }
+    }
+  }
+}

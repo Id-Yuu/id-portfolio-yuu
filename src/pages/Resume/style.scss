@@ -1,0 +1,72 @@
+#section-resume {
+  position: relative;
+  & > h1 {
+    margin: 10px auto;
+  }
+  .container-resume {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    h2 {
+      font-size: 1.2em;
+    }
+    .left {
+      flex: 50%;
+      max-height: 420px;
+      overflow-y: auto;
+      .content {
+        color: white;
+      }
+    }
+    .right {
+      flex: 50%;
+      max-height: 420px;
+      overflow-y: auto;
+      .content {
+        color: white;
+      }
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .content {
+      position: relative;
+      border-left: 2px solid;
+      padding: 10px;
+      margin-left: 10px;
+      sup {
+        font-style: italic;
+        font-family: monospace;
+      }
+      p {
+        margin-top: 10px;
+        span {
+          display: block;
+          &:last-child {
+            font-size: 12px;
+            margin-top: 15px;
+            background-color: rgb(144 144 144 / 20%);
+            padding: 5px;
+            border-radius: 5px;
+          }
+        }
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        top: -1%;
+        left: -8px;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: #fff;
+      }
+    }
+  }
+}
