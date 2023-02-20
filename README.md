@@ -26,6 +26,12 @@ with yarn
 yarn dev 
 ```
 
+> if getting error use force after dev, example:
+```sh
+npm i --f
+```
+
+
 ## Editing Data
 ```sh
 public/
