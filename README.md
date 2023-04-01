@@ -1,3 +1,6 @@
+## Preview
+![Preview](https://raw.githubusercontent.com/Id-Yuu/id-portfolio-yuu/main/preview.png)
+
 ## Instalation
 npm
 ```sh
