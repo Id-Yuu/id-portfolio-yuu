@@ -15,7 +15,7 @@ export const SocialMedia = () => {
           style: { fontSize: "25px" },
         });
         return (
-          <Link key={isd.id} target="_blank" to={isd.toUrl}>
+          <Link key={isd.id} target="_blank" aria-label={isd.toName} to={isd.toUrl}>
             {newIco}
           </Link>
         );

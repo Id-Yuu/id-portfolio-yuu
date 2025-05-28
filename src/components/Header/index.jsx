@@ -12,7 +12,7 @@ export const Header = () => {
       <h1>
         <RiTerminalLine />
         <Link to="/">
-          <TypeText content="Hi, There" />
+          <TypeText content="Hi, There" content2="I'm Yuu" />
         </Link>
       </h1>
     </header>

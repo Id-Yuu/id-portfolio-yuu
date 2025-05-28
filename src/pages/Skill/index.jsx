@@ -20,7 +20,7 @@ export const Skills = () => {
             className="left-skill"
           >
             <h2>
-              <TypeText content="Other Skill" />
+              <TypeText content="Other Skill" content2="My Expertise" />
             </h2>
             <ol>
               {SkillOther.map((idf, index) => (
@@ -30,7 +30,7 @@ export const Skills = () => {
           </mt.div>
           <div className="right-skill">
             <h2>
-              <TypeText content="Front-End" />
+              <TypeText content="Front-End" content2="Frameworks tools" />
             </h2>
             <ol>
               {SkillFrond.map((idf, index) => (

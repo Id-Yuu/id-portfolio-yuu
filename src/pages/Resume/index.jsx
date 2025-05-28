@@ -12,7 +12,7 @@ export const Resumes = () => {
     <Mtion>
       <section id="section-resume">
         <h1>
-          <TypeText content="Resume" />
+          <TypeText content="Resume" content2="My Journey" />
         </h1>
         <div className="container-resume">
           <div className="left">

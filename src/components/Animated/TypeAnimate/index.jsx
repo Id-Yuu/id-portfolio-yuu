@@ -1,11 +1,10 @@
 import React from "react";
-import TypingTextAnimation from "react-typing-text-animation";
-import "react-typing-text-animation/dist/index.css";
+import { TypeAnimation } from 'react-type-animation';
 
-const TypeText = ({ content }) => {
+const TypeText = ({ content, content2 }) => {
   return (
     <>
-      <TypingTextAnimation text={content} delay={200} />
+      <TypeAnimation sequence={[`${content}`, 800, `${content2}`, 900]} speed={50} repeat={2} />
     </>
   );
 };
