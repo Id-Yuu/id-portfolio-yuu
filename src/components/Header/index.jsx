@@ -11,7 +11,7 @@ export const Header = () => {
     <header id="header-container">
       <h1>
         <RiTerminalLine />
-        <Link to="/">
+        <Link to="/" aria-label="header">
           <TypeText content="Hi, There" content2="I'm Yuu" />
         </Link>
       </h1>
