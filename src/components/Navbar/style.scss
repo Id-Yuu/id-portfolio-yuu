@@ -7,6 +7,16 @@
   flex-wrap: nowrap;
   gap: 5px;
   font-size: large;
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+    font-size: large;
+  }
   a {
     padding: 10px;
     color: azure;
