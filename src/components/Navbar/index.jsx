@@ -19,12 +19,12 @@ export const Navbar = () => {
       </button>
       <div id="nav-container" className={isNavExpanded ? "menu show" : "menu"}>
         <ul>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="about">About</NavLink>
-          <NavLink to="certificate">Certificate</NavLink>
-          <NavLink to="skill">Skills</NavLink>
-          <NavLink to="resume">Resume</NavLink>
-          <NavLink to="portfolio">Portfolio</NavLink>
+          <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="about">About</NavLink></li>
+          <li><NavLink to="certificate">Certificate</NavLink></li>
+          <li><NavLink to="skill">Skills</NavLink></li>
+          <li><NavLink to="resume">Resume</NavLink></li>
+          <li><NavLink to="portfolio">Portfolio</NavLink></li>
         </ul>
       </div>
     </>
